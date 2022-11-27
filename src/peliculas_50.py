@@ -60,3 +60,4 @@ def agrupar_por_tematica(registro):
             d[f]=r
         d[f]=[r for r in registro if f==r.tematicas]
     return d.items()
+    

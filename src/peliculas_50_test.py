@@ -13,7 +13,6 @@ print(registro [-3:])
 print('\nDatos leidos:\n')
 print(len(registro))
  
-#categoria = 'War'
 categoria = input('\nPor que tematica lo quiere flitar(War, Comedy, Drama ...)')
 print('\nLas peliculas de la tematica '+categoria+' son:\n')
 print(filtro_tematica(registro, categoria))
