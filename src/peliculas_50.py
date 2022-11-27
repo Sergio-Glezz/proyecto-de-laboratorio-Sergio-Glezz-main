@@ -52,16 +52,7 @@ def max_espectadores(registro):
 def mayor_menor (registro):
     return sorted(registro, key = attrgetter('recaudacion'), reverse = True)
 
-#def agrupar_por_puntuacion(registro):
-    #d=dict()
-    #for r in registro:
-     #   f=r.puntuacion
-      #  if f not in d:
-       #     d[f]=r
-        #d[f]=[r for r in registro if f==r.puntuacion]
-    #return d.items()
-
-def agrupar_por_tematicas(registro):
+def agrupar_por_tematica(registro):
     d=dict()
     for r in registro:
         f=r.tematicas

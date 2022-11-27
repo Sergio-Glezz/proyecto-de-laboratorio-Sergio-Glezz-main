@@ -28,4 +28,4 @@ print('\nLas peliculas ordenadas por recaudacion son: \n')
 print(mayor_menor (registro))
 
 print('\nLa agrupacion de peliculas por puntuacion es: \n')
-print(agrupar_por_tematicas(registro))
+print(agrupar_por_tematica(registro))
